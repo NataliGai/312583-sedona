@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Наталья](https://up.htmlacademy.ru/adaptive/14/user/312583).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Мигаева](https://htmlacademy.ru/profile/hatewait).
 
 ---
 
