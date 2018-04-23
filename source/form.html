@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Город Седона</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="page-header">
+      <nav class="main-nav">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a>Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </li>
+        </ul>
+        <button class="main-nav__toggle" type="button">
+          Открыть меню
+        </button>
+      </nav>
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Город Седона">
+      </a>
+    </header>
+    <div class="intro">
+      <img class="intro__letters" src="http://placehold.it/150x100" alt="Седона">
+    </div>
+    <main class="page-form">
+      <section class="review">
+        <h1 class="review__title">Оставьте свой отзыв</h1>
+        <p class="review__content">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
+      <article class="review-user">
+        <form class="review-form">
+          <section class="introduce">
+            <h2 class="introduce__title">Представьтесь</h2>
+            <label class="introduce__label" for="user-name">Имя:</label>
+            <input class="introduce__user" type="text" id="user-name" value="Петр">
+            <label class="introduce__label" for="user-surname">Фамилия:</label>
+            <input class="introduce__user" type="text" id="user-surname" value="Иванов">
+            <label class="introduce__label" for="user-father-name">Отчество:</label>
+            <input class="introduce__user" type="text" id="user-father-name" value="Александрович">
+          </section>
+          <section class="contacts">
+            <h2 class="contacts__title">Контактная информация:</h2>
+            <label class="contacts__label" for="contact-phone">Контактный телефон:</label>
+            <input class="contacts__contact" type="text" id="contact-phone" value="Введите телефон">
+            <label class="contacts__label" for="contact-mail">Электронная почта:</label>
+            <input class="contacts__contact" type="text" id="contact-mail" value="Электронная почта">
+          </section>
+          <section class="impression">
+            <h2 class="impression__title">Ваше общее впечатление:</h2>
+            <input type="radio" class="impression__radio" id="radio-yes" name="radio-yes">
+            <label class="impression__label" for="radio-yes">Скорее положительное</label>
+            <input type="radio" class="impression__radio" id="radio-no" name="radio-no">
+            <label class="impression__label" for="radio-no">Скорее отрицательное</label>
+            <input type="radio" class="impression__radio" id="radio-without" name="radio-without">
+            <label class="impression__label" for="radio-without">Затрудняюсь ответить</label>
+          </section>
+          <section class="attractions">
+            <h2 class="attractions__title">Посещенные достопримечательности:</h2>
+            <input class="attractions__checkbox" type="checkbox" id="bridge" checked>
+            <label class="attractions__label" for="bridge">Мост Дьявола</label>
+            <input class="attractions__checkbox" type="checkbox" id="bell" checked>
+            <label class="attractions__label" for="bell">Гора-колокол</label>
+            <input class="attractions__checkbox" type="checkbox" id="park" checked>
+            <label class="attractions__label" for="park">Слайд парк</label>
+            <input class="attractions__checkbox" type="checkbox" id="rock">
+            <label class="attractions__label" for="rock">Красная скала</label>
+          </section>
+          <section class="emotions">
+            <h2 class="emotions_title">Опишите свои эмоции:</h2>
+            <textarea class="emotions_description">
+            Опишите подробно все свои восторги
+          </textarea>
+          </section>
+          <button class="review_send button" type="submit">
+          Отправить отзыв
+        </button>
+          <section class="send-fail hidden-visual">
+            <h2 class="send-fail__title">Что-то пошло не так!</h2>
+            <p class="send-fail__info">
+              Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+            </p>
+            <button class="send-fail__button button" type="button">
+            Ок
+          </button>
+          </section>
+          <section class="send-success hidden-visual">
+            <h2 class="send-success__title">Ваш отзыв отправлен!</h2>
+            <p class="send-success__info">
+              Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.
+            </p>
+            <button class="send-success__button button" type="button">
+            Закрыть окно
+          </button>
+          </section>
+        </form>
+      </article>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__hashtag">#visitsedona</p>
+      <ul class="page-footer__social social-button">
+        <li>
+          <a class="social-button-twitter">Twitter</a>
+        </li>
+        <li>
+          <a class="social-button-facebook">Facebook</a>
+        </li>
+        <li>
+          <a class="social-button-youtube">Youtube</a>
+        </li>
+      </ul>
+      <p class="page-footer__developer">
+        Разработано
+        <a href="https://htmlacademy.ru/intensive/adaptive"></a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
