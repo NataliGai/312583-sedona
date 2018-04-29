@@ -10,5 +10,9 @@ html {
 
 body {
   font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: $text_color_black;
+  text-transform: uppercase;
   background-color: $bg_white;
 }

@@ -1,17 +1,17 @@
-.places__name {
+.places {
   font-size: 14px;
   line-height: 24px;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .places__author {
-  font-size: 14px;
-  line-height: 24px;
-  color: rgb(51, 51, 51);
+  text-transform: none;
+  font-weight: normal;
+  color: $text_color_gray;
 }
 
-.places__amount-likes {
-  font-size: 14px;
-  line-height: 24px;
+.places__photos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

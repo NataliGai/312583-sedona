@@ -1,5 +1,4 @@
 .hotel-search__title {
-  color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -8,5 +7,5 @@
 .hotel-search__dates {
   font-size: 14px;
   line-height: 24px;
-  color: rgb(51, 51, 51);
+  color: $text_color_gray;
 }

@@ -13,15 +13,15 @@
   list-style-type: none;
   font-size: 18px;
   line-height: 40px;
+  font-weight: bold;
 }
 
 .main-nav a {
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
+  color: $text_color_white;
   text-decoration: none;
 }
 
 .site-list__button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: $bg_white;
+  color: $text_color_black;
 }
