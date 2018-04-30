@@ -1,0 +1,16 @@
+.contacts__title,
+.contacts__contact {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.contacts__label {
+  font-size: 14px;
+  line-height: 26px;
+  color: $text_color_gray;
+}
+
+.contacts__contact {
+  background-color: $bg_gray;
+}

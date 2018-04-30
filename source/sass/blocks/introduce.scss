@@ -1,0 +1,17 @@
+.introduce__title,
+.introduce__user {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.introduce__label {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color: $text_color_gray;
+}
+
+.introduce__user {
+  background-color: $bg_gray;
+}

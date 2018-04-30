@@ -1,0 +1,17 @@
+.places {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.places__author {
+  text-transform: none;
+  font-weight: normal;
+  color: $text_color_gray;
+}
+
+.places__photos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

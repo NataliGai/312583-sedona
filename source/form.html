@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Город Седона</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,17 +24,19 @@
           <li class="site-list__item">
             <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           </li>
+          <li class="site-list__button">
+            <button class="main-nav__toggle" type="button">
+              Открыть меню
+            </button>
+          </li>
         </ul>
-        <button class="main-nav__toggle" type="button">
-          Открыть меню
-        </button>
       </nav>
       <a class="page-header__logo">
         <img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Город Седона">
       </a>
     </header>
     <div class="intro">
-      <img class="intro__letters" src="http://placehold.it/150x100" alt="Седона">
+      <img class="intro__letters" src="img/bg-back-mobile@1x.jpg" alt="Седона">
     </div>
     <main class="page-form">
       <section class="review">
@@ -60,7 +63,7 @@
           </section>
           <section class="impression">
             <h2 class="impression__title">Ваше общее впечатление:</h2>
-            <input type="radio" class="impression__radio" id="radio-yes" name="radio-yes">
+            <input type="radio" class="impression__radio" id="radio-yes" name="radio-yes" checked>
             <label class="impression__label" for="radio-yes">Скорее положительное</label>
             <input type="radio" class="impression__radio" id="radio-no" name="radio-no">
             <label class="impression__label" for="radio-no">Скорее отрицательное</label>
@@ -112,13 +115,13 @@
       <p class="page-footer__hashtag">#visitsedona</p>
       <ul class="page-footer__social social-button">
         <li>
-          <a class="social-button-twitter">Twitter</a>
+          <a class="social-button-twitter" href="#">Twitter</a>
         </li>
         <li>
-          <a class="social-button-facebook">Facebook</a>
+          <a class="social-button-facebook" href="#">Facebook</a>
         </li>
         <li>
-          <a class="social-button-youtube">Youtube</a>
+          <a class="social-button-youtube" href="#">Youtube</a>
         </li>
       </ul>
       <p class="page-footer__developer">
